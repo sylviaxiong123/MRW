@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	background-image:url(../images/dark.jpg);
+	margin:0 auto;
+	background-repeat:repeat-y; 
+}
+h2
+{
+	font-family: 'Pacifico', cursive;
+	font-size:50px;
+	color:#fff;
+}
+
+h3{
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+	color:#fff;
+}
+
+h4
+{
+	font-family: 'Pacifico', cursive;
+	font-size:20px;
+	color:#fff;
+}
+p{
+	font-family: 'Dosis', sans-serif;
+	font-size:18px;
+	text-decoration: none;
+	color:#fff;
+}
+label{
+	font-family: 'Dosis', sans-serif;
+	font-size:18px;
+	text-decoration: none;
+	color:#fff;
+}
+
+input {
+	border-radius: 50px;
+	width: 30%;
+	
+    font-family: 'Dosis', sans-serif;
+	font-size:18px;
+	color:#E80D11;
+}
+
+ul{
+	text-align:center;
+	color:#fff;
+}
+
+li{
+	margin-right:10%;
+	text-align:center;
+	color:#fff;
+	
+	list-style:none;
+	display:inline;
+}
+
+button { 
+	cursor: pointer; 
+	font-size: 1em; 
+	margin: 0 8px; 
+	border-radius: 20px; 
+	border: none; 
+	padding: 8px 14px ;
+	background-color:#9E9696;
+}
+
+
+
+/*---------------------------------------Audio Control-----------------------------------------*/
+
+#controlBar { 
+	width: 67%;
+	height: 20px;
+	background: rgb(102, 102, 102);
+	position: relative;
+	padding: 10px 0; 
+}
+
+#trackTime { 
+	float:right; 
+	display:inline; 
+	padding:0px 12px; 
+	position:relative; 
+	top:-12px; 
+}
+
+progress { 
+	width:60%;
+	float:right; 
+	position:relative; 
+	top:-10px;
+ 
+}
+
+
+
+#volumeSlider { 
+	position:relative; 
+	width:100px; 
+	float:left; 
+	top:-8px; 
+	left:3px;
+}
+
+#playButton { 
+	position:relative; 
+	top:-14px;  
+	left:6px; 
+	float:left; 
+	display:inlineinline-block; 
+	width:32px; 
+	height:32px; 
+	background-image:url(../images/playerButtons.png); 
+	background-repeat:no-repeat; 
+	overflow:hidden; 
+	cursor:pointer; 
+}
+
+.pauseMode { background-position: 0px -20px; }
+
+#muteButton { 
+	position:relative; 
+	top:-14px; 
+	left:12px; 
+	/*float:left;*/ 
+	margin-right:5px; 
+	display:inline-block; 
+	width:32px; 
+	height:32px; 
+	background:url(../images/audIcon.png) no-repeat; 
+	overflow:hidden; 
+	cursor:pointer; 
+	transition:opacity 1s; 
+	-moz-transition:opacity 1s; 
+	-webkit-transition:opacity 1s; 
+}
